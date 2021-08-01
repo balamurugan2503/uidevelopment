@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body{
+  font-family: 'Roboto Slab', serif;
+} */
+.Header {
+  width: 100%;
+  background: -webkit-linear-gradient(#000, #133357);
+  color: whitesmoke;
+  font-size: 1.1rem;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+.Header h1 {
+  padding-top: 10px;
+}
+.Navigation ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin: 20px 80px;
+}
+.Navigation ul li a {
+  text-decoration: none;
+  padding: 20px;
+  
+  
+  color: #000;
+  font-weight:normal;
+  
+}
+.Banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Banner img{
+  width: 400px;
+
+}
+.Banner-content{
+  margin-left: 50px;
+}
+/* 
+
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  padding-left: 800px;
+  padding-top: 30px;
+}
+.Navigation ul a:focus {
+  color: #3fbbc0;
+}
+.Welcome {
+  width: 100%;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Img {
+  width: 35%;
+  margin-left: 50px;
+}
+.Life {
+  width: 50%;
+  margin-left: 300px;
+  
+} */
+.Banner-content h1{
+  /* padding: 5px 0;  */
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  font-size: 2.5rem;
+}
+.Banner-content p{
+
+  padding: 5px 0;
+  font-size: 1.2rem;
+  
+  
+
+}
+.Banner-content button{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  background: -webkit-linear-gradient(#000, #133357);
+  padding: 10px 20px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.weather{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+.weaherchannel{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: #133357;
+  padding-left: 50px;
+}
+.places{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  height: 200px;
+  
+
+}
+.place1{
+  background-color: #0D7E88;
+
+}
+.place2 {
+  background-color: #D09378 
+}
+.place3{
+  background-color: #405B5D;
+  
+}
+.place4{
+  background-color: #74A748;
+  
+}
+.places i{
+  font-size: 2rem;
+  margin: 10px 0;
+
+}
+.places h1{
+  font-size: 3.5rem;
+
+}
+.featured-destinations h2 {
+  margin: 30px 80px;
+  color:darkslateblue;
+}
+.destinations img {
+  width: 200px;
+  height: 30vh;
+  margin: 0 8px;
+  border-radius: 10px;
+}
+.destinations {
+  display: flex;
+  justify-content: center;
+}
+.featured-destinations h3 {
+  padding: 15px 0;
+
+}
+.plan-trip {
+  margin: 30px 0;
+  width: 100%;
+  height: 80vh;
+  background-image: url(./promo-image.png);
+  background-position: center;
+  background-size: cover;
+}
+.trip {
+  color: white;
+  width: 300px;
+  padding-top: 350px;
+  margin-left: 20px;
+}
+.trip h1 {
+  font-size: 2.5rem;
+  padding: 10px 0;
+}
+.travelling-group {
+  text-align: center;
+}
+.travelling-group h2 {
+  padding: 20px 0;
+  color: darkblue;
+}
+form label {
+  display: block;
+  margin-right: 450px;
+}
+form input {
+  width: 40%;
+  padding: 8px 0;
+  margin: 10px 0;
+}
+.travelling-group button{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  background: -webkit-linear-gradient(#000, #133357);
+  padding: 10px 20px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+.footer{
+  width: 100%;
+  height: 42vh;
+  display: flex;
+  background: -webkit-linear-gradient(#000, #133357);;
+  color: white;
+  align-items:center;
+  justify-content: space-around;
+}
+.footer h3{
+  padding: 10px;
+
+}
+.footer p{
+  padding: 10px;
+}
+.footer strong{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
